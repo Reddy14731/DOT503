@@ -13,7 +13,7 @@ class TestArithmetic(unittest.TestCase):
     def test_sub(self):
         self.assertEqual(main.mul(4, 2), 8, msg='Equal')
     def test_div(self):
-        self.assertEqual(main.mul(4, 2), 2, msg='Equal')
+        self.assertEqual(main.mul(4, 2), 8, msg='Equal')
 
 
 if __name__ == '__main__':
